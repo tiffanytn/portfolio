@@ -17,7 +17,11 @@ body {
 
 }
 
+a, a:hover {
+    color: #FFC057;
+    font-weight: 500;
 
+}
 h1,
 h2,
 h3, 
@@ -28,14 +32,16 @@ h4 {
 
 h1 {
     /* font-size: 30px; */
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 h2 {
     /* font-size: 20px; */
-    font-size: 1rem;
-    /* color:#FAAC2B; */
+    font-size: 1.2rem;
     color: #FFC057;
+    /* color: black; */
+    font-weight: 700;
+
 }
 
 h3 {
@@ -46,6 +52,11 @@ h4 {
     font-weight: 400;
     /* font-size: 18px; */
     font-size: 1rem;
+}
+
+span {
+    background-image: -webkit-linear-gradient(-90deg, rgba(255, 245, 110, 0) 50%, #FFD14B 50%); 
+
 }
 
 
@@ -126,7 +137,36 @@ a#nav-title {
 ******************/
 
 .intro-header {
-    margin: 50px 0 140px 0 ;
+    margin: 50px 0 80px 0 ;
+    max-width: 600px;
+
+}
+
+#name {
+    font-size: 2rem;
+}
+
+button {
+    max-width: 400px;
+    /* height:70px; */
+    padding: 16px 20px;
+    font-size: .8rem;
+    font-weight: 500;
+    color:  #FFC057;
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid #FFC057;
+    /* margin: 20px auto; */
+
+    /* position: relative;
+    left: 30%; */
+}
+
+button:hover {
+    background-color: #FFC057;
+    color: white;
+    text-decoration: none;
+
 }
 
 /*****************

@@ -31,7 +31,7 @@ h4 {
 
 h1 {
     /* font-size: 30px; */
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     color: #00BFA6;
     font-weight: 700;
     padding: 10px 0;
@@ -68,6 +68,9 @@ h5 {
     margin: 50px;
 }
 
+a.link {
+    color: #00BFA6;
+}
 a#nav-title {
     float: left;
     display: block;
@@ -188,7 +191,7 @@ button {
 
 .project-details {
     padding: 0;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 .problemStatement {
@@ -372,10 +375,22 @@ ul li {
 }
 
 .section-divider {
-    display:block;
-    width: 100px;
-    margin: 0 auto;
+    text-align: center;
+
 }
+hr {
+    color: #00BFA6;
+    background-color: #00BFA6;
+    border: none;
+    margin: 0 auto;
+    height: 0.12rem;
+    width: 5rem;
+    margin-top: 1.2rem;
+    margin-bottom: 2.4rem;
+}
+
+
+
 
 /* .assure {
     background-image: url(assure-background.png);
