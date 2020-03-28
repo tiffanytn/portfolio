@@ -1,0 +1,38 @@
+h1 {
+    /* font-size: 30px; */
+    font-size: 1.9rem;
+    color: #E7092B;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+h4 {
+    font-weight: 500;
+    /* font-size: 18px; */
+    font-size: 1rem;
+    color: #E7092B;
+}
+
+a.link {
+    color: #E7092B;
+}
+
+.navigation ul li a:hover,
+.navigation ul li a.active {
+    opacity: 1;
+    background-image: -webkit-linear-gradient(-90deg, rgba(255, 245, 110, 0) 50%, #E7092B 50%); 
+    
+}
+
+
+hr {
+    color: #E7092B;
+    background-color: #E7092B;
+    border: none;
+    margin: 0 auto;
+    height: 0.12rem;
+    width: 5rem;
+    margin-top: 1.2rem;
+    margin-bottom: 2.4rem;
+}
+
