@@ -67,7 +67,7 @@
   
           this.wordIndex++;
 
-          typeSpeed = 500;
+          typeSpeed = 80;
         }
   
   
