@@ -366,6 +366,11 @@ ul li {
     vertical-align: middle;
 }
 
+.reflection-pts {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
 /* .assure {
     background-image: url(assure-background.png);
     background-size: 470px 309px;
@@ -374,31 +379,3 @@ ul li {
 
 } */
 
-.paciolan {
-    color: white;
-}
-.tenacity {
-    background-image:url(tenacity-background.png);
-    background-repeat: no-repeat, repeat;
-    background-size: 80%;
-    background-attachment: fixed;
-    background-position: bottom right; 
-
-}
-
-.project-description{
-    padding: 70px 30px;
-} 
-
-
-.mask {
-    max-width: 90%; 
-    object-fit: cover;
-    /* margin-right: 20px; */
-}
-
-
-.project-img {
-    margin: 0;
-    padding: 0;
-}
