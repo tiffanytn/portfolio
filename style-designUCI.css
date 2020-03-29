@@ -1,0 +1,63 @@
+h1 {
+    /* font-size: 30px; */
+    font-size: 1.9rem;
+    color: #FC593D;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+h4 {
+    font-weight: 500;
+    /* font-size: 18px; */
+    font-size: 1rem;
+    color: #FC593D;
+}
+
+a.link {
+    color: #FC593D;
+}
+
+.navigation ul li a:hover,
+.navigation ul li a.active {
+    opacity: 1;
+    background-image: -webkit-linear-gradient(-90deg, rgba(255, 245, 110, 0) 50%, #FF7962 50%); 
+    
+}
+
+
+hr {
+    color: #FC593D;
+    background-color: #FC593D;
+    border: none;
+    margin: 0 auto;
+    height: 0.12rem;
+    width: 5rem;
+    margin-top: 1.2rem;
+    margin-bottom: 2.4rem;
+}
+
+a.red-link {
+    color:#FC593D;
+    text-decoration: underline;
+}
+.sub:hover{
+
+    color: #FC593D;
+}
+
+.sub:before{
+    background: #FC593D;
+}
+
+.sub:hover:before{
+    background: #FC593D;
+}
+/*****************
+ FOOTER
+******************/
+
+footer {
+    color: #FC593D;
+
+}
+
