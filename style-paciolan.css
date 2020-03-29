@@ -37,6 +37,18 @@ hr {
 }
 
 
+.sub:hover{
+
+    color: #E7092B;
+}
+
+.sub:before{
+    background: #E7092B;
+}
+
+.sub:hover:before{
+    background: #E7092B;
+}
 /*****************
  FOOTER
 ******************/
@@ -45,3 +57,4 @@ footer {
     color: #E7092B;
 
 }
+
