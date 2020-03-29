@@ -1,0 +1,63 @@
+h1 {
+    /* font-size: 30px; */
+    font-size: 1.9rem;
+    color: #0F183F;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+h4 {
+    font-weight: 500;
+    /* font-size: 18px; */
+    font-size: 1rem;
+    color: #0F183F;
+}
+
+a.link {
+    color: #0F183F;
+}
+
+.navigation ul li a:hover,
+.navigation ul li a.active {
+    opacity: 1;
+    background-image: -webkit-linear-gradient(-90deg, rgba(255, 245, 110, 0) 50%, #7A7F95 50%); 
+    
+}
+
+
+hr {
+    color: #0F183F;
+    background-color: #0F183F;
+    border: none;
+    margin: 0 auto;
+    height: 0.12rem;
+    width: 5rem;
+    margin-top: 1.2rem;
+    margin-bottom: 2.4rem;
+}
+
+a.red-link {
+    color:#0F183F;
+    text-decoration: underline;
+}
+.sub:hover{
+
+    color: #0F183F;
+}
+
+.sub:before{
+    background: #0F183F;
+}
+
+.sub:hover:before{
+    background: #0F183F;
+}
+/*****************
+ FOOTER
+******************/
+
+footer {
+    color: #0F183F;
+
+}
+

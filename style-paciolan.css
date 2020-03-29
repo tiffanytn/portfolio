@@ -36,7 +36,10 @@ hr {
     margin-bottom: 2.4rem;
 }
 
-
+a.red-link {
+    color:#E7092B;
+    text-decoration: underline;
+}
 .sub:hover{
 
     color: #E7092B;
