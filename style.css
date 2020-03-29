@@ -189,13 +189,19 @@ button:hover {
 }
 
 .tiffanynguyen {
-    width: 14%;
+    /* width: 14%;
     max-height: 20vw;
     min-height: auto;
     margin-top: 60px;
     margin-left: 50px;
     padding-top: 0px;
-    padding-left: 0px;
+    padding-left: 0px; */
+
+
+    margin-left: 50px;
+
+
+
 }
 
 .card,.preset-card {
@@ -250,3 +256,68 @@ button:hover {
     margin: 0;
     padding: 0;
 }
+
+/*****************
+ FEATURED WORKS 
+******************/
+
+footer {
+    background-color: #FAC52B;
+    height: 164px;
+    color: white;
+}
+
+.credits {
+    padding: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+/*****************
+    SIDE NAVIGATION
+******************/
+
+.side-nav {
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 20;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    margin-top: 100px;
+    /* padding-left: 20px; */
+}
+
+
+/*****************
+    ABOUT
+******************/
+
+#pfp-img {
+    max-width: 100%;
+}
+
+.updated-row {
+    max-width: 100%;
+    margin: 0 30px;
+}
+
+.new-margin {
+    margin-top: 40px;
+}
+
+.col-12 {
+    padding: 0 20px;
+}
+/* @media only screen and (max-device-width: 990px) {
+
+    #left-page {
+        display:none;
+    }
+
+
+
+
+    
+} */

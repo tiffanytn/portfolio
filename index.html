@@ -16,13 +16,14 @@
     <!-- you would link to an external stylesheet here! -->
     <link rel = "stylesheet" type = "text/css" href = "style.css" />
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
   
     <title>Tiffany Nguyen - Product Designer</title>
 
 
 </head>
-<body style="background-image: url(assets/background.png); background-size: 100%;"> 
+<body style="background-image: url(assets/background.png); background-size: 120%;"> 
     <!-- <p>
     <a href="http://validator.w3.org/check?uri=referer">
        W3C validator
@@ -55,10 +56,10 @@
     <!-- Body -->
     <div class="container">
         <div class="row">
-            <div class="col-2">
+            <div class="col-2 left-page">
                 <img src="assets/portfolio-name.png" alt="" class="tiffanynguyen">  
             </div>   
-            <div class="col-10">
+            <div class="col-10 right-page">
                 <!-- Header -->
                 <div class="intro-header">
                     <h4>passionate about                       
@@ -71,13 +72,9 @@
                         <br>
                     <h1>I'm a UI/UX Designer eager to understand users and problems, discover opportunities, and 
                         craft meaningful and delightful experiences. Currently: studying Informatics + Human-Computer Interaction at <a href="uci.edu">UC Irvine</a>. 
-                        <!-- My passions lie in                         <span class="txt-type" data-wait="2000" data-words='["design", "techology","storytelling", "research", "human-centered design","learning"]'></span>
-                        . -->
 
-                        <!-- Using design to translate user and business needs into meaningful and pleasurable experiences. -->
                     </h1>
                     <br>
-                    <!-- <p style="font-size: 1rem">Check out this neat piece of <a href="">paper</a> if you want a brief look at what I've been up to.</p> -->
                     <a href="https://drive.google.com/file/d/1IGIu4QMnq5yKiS0A3fr3_Z2owPFYTxCW/view"><button>Check out my resume</button></a>
                 </div>  
                 <h2>FEATURED WORK ↓</h2> 
@@ -147,11 +144,20 @@
 
 
     <!-- Footer -->
-    <div id="footer">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
 
-    </div>
+                </div>
+                <div class="col-10 credits">
+                    Designed + Coded by Tiffany <br>
+                </div>
+            </div>
+        </div>
 
-    <script src="script.js"></script>
+    </footer>
+
 
 </body>
 </html>

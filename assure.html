@@ -16,7 +16,8 @@
     <!-- you would link to an external stylesheet here! -->
     <link rel = "stylesheet" type = "text/css" href = "style-assure.css" />
 
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 
 
   
@@ -53,22 +54,40 @@
 
     </div>   
 
-
+    <aside class="project-aside project-aside-float">
+        <div class="project-aside-container">
+        <!-- <button onclick="location.href='index.html#second'" type="button" class="back-btn">Back</button> -->
+            <nav class="project-main-menu">
+                <ul class="menu-ul">
+                    <li><a href="#overview" class="sub pT">OVERVIEW</a></li>
+                    <li><a href="#solutions" class="sub pT select">OUTCOME</a></li>
+                    <li><a href="#research" class="sub pT select">RESEARCH</a></li>
+                    <li><a href="#ideation" class="sub pT">IDEATION</a></li>
+                    <li><a href="#design" class="sub pT">DESIGN</a></li>
+                    <li><a href="#testing" class="sub pT">TESTING</a></li>
+                    <li><a href="#reflection" class="sub pT">REFLECTION</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
     <!-- Body -->
     <div class="container">
         <div class="row">
+            
             <div class="col-2">
                 <img src="assets/assure/name-teal.png" alt="" class="tiffanynguyen home-aboutme">  
+                <br>
+                <br>
+
 
             </div>   
-            <div class="col-10">
+            <div class="col-10 project-content">
                 <!-- Header -->
                 <div class="description-header">
                    <img src="assets/assure/assure-header.png" class="assureImg">
 
                 </div>  
-
-                <div id="#overview"class="section">
+                <div id="overview" class="section">
                     <h1 class="section-divider">OVERVIEW</h1>
                     
                     <p>If you’ve ever felt wary walking out at night by yourself, unsure of how to protect 
@@ -121,7 +140,7 @@
                 </div>
 
                 <img src="assets/assure/assure-problemStatement.png" class="problemStatement">
-                <div id="#solutions" class="section">
+                <div id="solutions" class="section">
                     <h1 class="section-divider">DESIGN OUTCOME</h1>
                     <hr>
 
@@ -238,7 +257,7 @@
                
 
                     <div  class="section">
-                        <h1 id="#research" class="section-divider">USER RESEARCH</h1>
+                        <h1 id="research" class="section-divider">USER RESEARCH</h1>
                         <hr>
 
                         <div class="container researchOverview">
@@ -367,7 +386,7 @@
                   
                     </div>
 
-                    <div id="#ideation" class="section">
+                    <div id="ideation" class="section">
                         <h1 class="section-divider">DEFINE & IDEATE</h1>
                         <hr>
 
@@ -452,7 +471,7 @@
 
                     </div>
 
-                    <div id="#design" class="section">
+                    <div id="design" class="section">
                         <h1 class="section-divider">DESIGN</h1>
                         <hr>
                         
@@ -484,7 +503,7 @@
                         </div>
                     </div>
 
-                    <div id="#testing" class="section">
+                    <div id="testing" class="section">
                         <h1 class="section-divider">TEST & REFINE</h1>
                         <hr>
 
@@ -590,7 +609,7 @@
 
                     </div>
 
-                    <div id="#reflection" class="section">
+                    <div id="reflection" class="section">
                         <h1 class="section-divider">RELECTION</h1>
                         <hr>
 

@@ -389,14 +389,96 @@ hr {
     margin-bottom: 2.4rem;
 }
 
+/*****************
+ SIDE NAVIGATION 
+******************/
 
 
 
-/* .assure {
-    background-image: url(assure-background.png);
-    background-size: 470px 309px;
-    background-repeat: no-repeat; 
+.project-aside {
+    position: fixed;
+    margin-left: -300px;
+    height: 100%;
+    z-index: 9;
+    display: table;
+    opacity: 0;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.project-aside-float {
+    margin-left: 30px;
+    transition: all 1s;
+    opacity: 1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.project-aside-container {
+    display: table-cell;
+    vertical-align: middle;
+}
+.project-main-menu li {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+.project-main-menu li a{
+    color: #a7a7a7;
+    border-bottom: none;
+    text-decoration: none;
+    font-size: .8rem;
+}
+.back-btn{
+    width: 100%;
+    line-height: 12px;
+}
+.menu-ul{
+    padding: 0;
+    margin: 0;
+}
 
-
-} */
+.sub{
+    margin: 0;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.sub:hover{
+    margin-left: 20px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    color: #00BFA6;
+}
+.sub:before{
+    content: '';
+    position: absolute;
+    margin-top: 0.1em;
+    width: 2px;
+    height: 1.4em;
+    background: #00BFA6;
+    opacity: 0;
+    left: -5px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.sub:hover:before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 1.4em;
+    background: #00BFA6;
+    opacity: 1;
+    left: 10px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
 

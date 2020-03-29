@@ -19,6 +19,78 @@
 //         hamburger.classList.toggle("is-active");
 //       });
   
+
+
+const faders = document.querySelectorAll('.fade-in');
+
+const appearOptions = {};
+const appearOnScroll = new IntersectionObserver( function(entries, appearOnScroll) {
+    entries.forEach(entry => {
+        if( !entry.isIntersecting ) {
+            return;
+        }
+
+        else {
+            entry.target.classList.add('appear');
+            appearOnScroll.unobserver(entry.target);
+        }
+    })
+}, appearOptions);
+
+
+
+faders.forEach( fader => {
+    appearOnScroll.observer(fader);
+})
+
+
+$(document).ready(function(){
+    var win_w = $(window).width();
+    var current_top = 0;
+
+    // SIDE NAV 
+    $(window).on('scroll',function(e){
+        var whs = $(window).scrollTop();
+        if(win_w>415){
+            if ($('.project-content').offset().top - whs < 0){
+                $(".project-aside").addClass('project-aside-float');
+            } else {
+                $(".project-aside").removeClass('project-aside-float');
+            }
+            // if($('.top-nav').css('opacity')>0 || whs < 200){
+            //     $('.top-nav').css('opacity',(60-whs)/60);
+            //     $('.top-nav').show();
+            // }else{$('.top-nav').hide();}
+        }
+        toggleSelect(whs);
+
+        // if( whs >= current_top ){ 
+        //     if (!$('.float-nav').hasClass('float-nav-hide')) {
+        //         $('.float-nav').addClass('float-nav-hide');
+        //     }
+        //     current_top = whs;
+        // }else{
+        //     if ($('.float-nav').hasClass('float-nav-hide')) {
+        //         $('.float-nav').removeClass('float-nav-hide');
+        //     }
+        //     current_top = whs;
+        // }
+    });
+
+    if ($(window).width() < 990){
+        console.log('hello');
+        $('.left-page').hide();
+        $('.right-page').toggleClass("col-12");
+
+        
+        $('#pfp-img').parent().prependTo('.row.main').removeClass('col-5');
+        $('#about').removeClass('col-5').addClass('new-margin');
+        $('.col-10.right-side.about-body').toggleClass("updated-row");
+    }
+    console.log('nope');    
+
+
+  });
 /*****************
  TYPEWRITER EFFECT FOR 
  HOME PAGE HEADER
@@ -85,3 +157,4 @@
   
         new typeWriter(element, words, waitTime); 
       }
+
