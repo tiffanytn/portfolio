@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,500,500i,700&display=swap');
 /* 
 $primary-color: #FAAC2B;
 $assure-color: #00BFA6;
@@ -9,6 +9,7 @@ $designUCI-color: #FC593D; */
 body {
 	background: white;
     font-family: 'DM Sans', sans-serif;
+
     font-weight: 300;
     /* font-size: 14px; */
     font-size: 1rem;
@@ -44,7 +45,7 @@ h2 {
 }
 
 h3 {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.2rem;
 
 }
@@ -147,22 +148,24 @@ a#nav-title {
 /*****************
 BODY
 ******************/
+.button-div {
+    text-align:center;
 
+}
 .button,
 button {
     max-width: 400px;
     height:70px;
-    padding: 20px 60px;
+    padding: 1rem 2.2rem;
     font-size: .8rem;
     font-weight: 500;
     color:  #00BFA6;
     border-radius: 50px;
     background-color: white;
     border: 2px solid #00BFA6;
-    margin: 20px auto;
 
-    position: relative;
-    left: 30%;
+    /* position: relative;
+    left: 30%; */
 }
 
 .button:hover,button:hover {
@@ -445,6 +448,7 @@ hr {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
+    font-weight: 400;
 }
 .sub:hover{
     margin-left: 20px;
@@ -482,3 +486,77 @@ hr {
     -o-transition: all 0.3s;
 }
 
+/*****************
+ FOOTER
+******************/
+
+footer {
+    color: #00BFA6;
+
+}
+
+
+/*****************
+ FLOAT NAVIGATION 
+******************/
+
+
+/* .float-nav {
+    background-color: #00BFA6(66, 133, 244, 0.9);
+}
+
+.float-nav-hide {
+    opacity: 0 !important;
+    top: -80px !important;
+}
+
+.float-nav .logo {
+    width: 4em;
+    height: 2em;
+    background: url(../../images/logo.png) no-repeat;
+    background-size: contain;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.float-nav .logo_dark {
+    width: 4em;
+    height: 2em;
+    background: url(../../images/logo_theme.png) no-repeat;
+    background-size: contain;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.float-nav .nav {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.float-nav .nav a {
+    color: rgba(255, 255, 255, 0.65);
+    text-decoration: none;
+    border: 0px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.float-nav .nav a:hover {
+    color: #FFFFFF;
+    font-weight: 500;
+    opacity: 100%;
+}
+
+.float-nav .nav_dark {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.float-nav .nav_dark a {
+    color: #6a6a6a;
+    text-decoration: none;
+    border: 0px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.float-nav .nav_dark a:hover {
+    color: #000000;
+} */

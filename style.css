@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,500,500i,700&display=swap');
 /* 
 $primary-color: #FAAC2B;
 $assure-color: #00BFA6;
@@ -59,7 +59,15 @@ span {
 
 }
 
+.white {
+    color: white;
+    text-decoration: underline;
+}
 
+.white:hover {
+    color: #EBEBEB;
+    text-decoration: underline;
+}
 /*****************
  NAVIGATION 
 ******************/
@@ -144,6 +152,7 @@ a#nav-title {
 #name {
     font-size: 2rem;
 }
+
 
 button {
     max-width: 400px;
@@ -262,17 +271,16 @@ button:hover {
 ******************/
 
 footer {
-    background-color: #FAC52B;
-    height: 164px;
-    color: white;
+
+    margin: 100px 0;
+    color: #FFC057;
+    line-height: 1rem;
+    text-align: center;
+    font-size:  1rem;
+    font-weight: 500;
 }
 
-.credits {
-    padding: 50px;
-    font-size: 1rem;
-    font-weight: bold;
 
-}
 
 /*****************
     SIDE NAVIGATION
@@ -310,14 +318,3 @@ footer {
 .col-12 {
     padding: 0 20px;
 }
-/* @media only screen and (max-device-width: 990px) {
-
-    #left-page {
-        display:none;
-    }
-
-
-
-
-    
-} */

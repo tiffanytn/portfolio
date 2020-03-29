@@ -47,6 +47,18 @@ faders.forEach( fader => {
 $(document).ready(function(){
     var win_w = $(window).width();
     var current_top = 0;
+    var nav_num = $('.menu-ul > li').not('.font_padding').length;
+    console.log('nav number: ' + nav_num);
+    var toggleSelect = function(w){
+        if(w<=240){$(".sub").removeClass("select");}
+        for(var i = 0; i < nav_num; i++){
+            if(($(".bT").eq(i).offset().top - 50)<w){
+                $(".sub").removeClass("select");
+                $(".pT").eq(i).addClass("select");
+            }
+        }
+    }
+
 
     // SIDE NAV 
     $(window).on('scroll',function(e){
@@ -57,12 +69,12 @@ $(document).ready(function(){
             } else {
                 $(".project-aside").removeClass('project-aside-float');
             }
-            // if($('.top-nav').css('opacity')>0 || whs < 200){
-            //     $('.top-nav').css('opacity',(60-whs)/60);
-            //     $('.top-nav').show();
-            // }else{$('.top-nav').hide();}
+            if($('.navigation').css('opacity')>0 || whs < 200){
+                $('.navigation').css('opacity',(60-whs)/60);
+                $('.navigation').show();
+            }else{$('.navigation').hide();}
         }
-        toggleSelect(whs);
+        // toggleSelect(whs);
 
         // if( whs >= current_top ){ 
         //     if (!$('.float-nav').hasClass('float-nav-hide')) {
