@@ -52,6 +52,29 @@ a.red-link {
 .sub:hover:before{
     background: #E7092B;
 }
+
+/*****************
+ SOLUTIONS
+******************/
+.pac-solutions {
+    max-width: 100%;
+    padding: 20px;
+    vertical-align: middle;
+
+}
+
+.before-after{
+    margin: 50px 0;
+    text-align: center;
+}
+
+
+.comparison{
+    /* text-align: center;
+    display: table-cell; */
+    margin: 30px 0;
+
+}
 /*****************
  FOOTER
 ******************/
